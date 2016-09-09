@@ -1,0 +1,21 @@
+{
+  "name": "plane",
+  "version": "1.0.0",
+  "description": "Lab server for plane inclined lab",
+  "main": "appe.js",
+  "dependencies": {
+    "bindings": "^1.2.1",
+    "express": "^4.13.3",
+    "nan": "^1.9.0",
+    "node-gyp": "^1.0.3",
+    "socket.io": "^1.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "apps.js",
+    "install": "node-gyp rebuild"
+  },
+  "author": "João Paulo Cardoso de Lima",
+  "license": "MIT",
+  "gypfile": true
+}
